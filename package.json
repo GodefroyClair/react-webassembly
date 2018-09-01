@@ -1,0 +1,26 @@
+{
+  "name": "react-webassembly",
+  "version": "1.0.0",
+  "description": "base for tuto to integrate webassembly",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GodefroyClair/react-webassembly.git"
+  },
+  "keywords": [
+    "react",
+    "webassembly",
+    "webpack",
+    "babel",
+    "emscripten"
+  ],
+  "author": "Julien Grach & Godefroy Clair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GodefroyClair/react-webassembly/issues"
+  },
+  "homepage": "https://github.com/GodefroyClair/react-webassembly#readme"
+}
