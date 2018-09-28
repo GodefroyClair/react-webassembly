@@ -1,6 +1,19 @@
 # react-webassembly
 tutorial to integrate web assembly into a react app
 
+# dependencies
+
+webpack: 4.20.2
+webpack-dev-server: 3.1.9
+webpack-cli: 3.1.1
+
+babel: @babel/core: 7.1.0, @babel/preset-env: 7.1.0, @babel/preset-react: 7.0.0
+babel-loader: 8.0.4
+
+react: 16.5.2
+react-dom: 16.5.2
+
+
 ## Steps
 
 TODO:
@@ -138,4 +151,6 @@ De plus, on utilise généralement react avec webpack et webpack ajoute la confu
 ON va montrer comment on peut facilement avec
 1) webpack 4 et babel gérer
 2) webpack <=4 et babel
+
+CODER
 
