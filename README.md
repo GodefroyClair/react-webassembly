@@ -3,6 +3,8 @@ tutorial to integrate web assembly into a react app
 
 # dependencies
 
+## JS
+
 webpack: 4.20.2
 webpack-dev-server: 3.1.9
 webpack-cli: 3.1.1
@@ -12,6 +14,13 @@ babel-loader: 8.0.4
 
 react: 16.5.2
 react-dom: 16.5.2
+reactHotloader: 4.3.11
+
+## C
+
+dossier C_src
+installer emscripten (lien + config)
+- créer un Makefile bash emcc.sh
 
 
 ## Steps
@@ -154,3 +163,27 @@ ON va montrer comment on peut facilement avec
 
 CODER
 
+
+# 1) installation des dépendances (voir #dependencies)
+
+# 2) création de l'arborescence
+
+## Emcc
+dossier C_src
+fichier Makefile emcc.sh
+
+## JS
+dossier src, dist
+
+## Webpack
+
+fichier webpack.config.js
+/!\ only dev config
+
+creation du fichier webpack:
+
+1. config gen: def input output de webpack
+2. devserver
+3. modules (loaders)
+4. resolve (permet de gérer automatiquement la résolution d'extension avec import) 
+/!\ Webpack: resolution des tableaux par la droite
